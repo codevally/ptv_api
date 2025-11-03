@@ -1,0 +1,13 @@
+name: Workflow for PTV API
+on: workflow_dispatch
+jobs:
+  init:
+    runs-on: ubuntu-latest
+    steps:
+      - name: first
+        run: |
+          echo "Hello"
+          echo "World"
+      - name: second
+        run: "!!!"
+        
