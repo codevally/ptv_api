@@ -9,5 +9,5 @@ jobs:
           echo "Hello"
           echo "World"
       - name: second
-        run: "!!!"
+        run: echo "!!!"
         
